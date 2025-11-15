@@ -43,7 +43,7 @@ public class StudentMarkServiceRepository {
         if (student != null && idAndStudentHashMap.containsKey(student.getId())){
             existingStudent =  idAndStudentHashMap.get(student.getId());
             existingStudent.setName(student.getName());
-            existingStudent.setTotalmarks(student.getTotalmarks());
+
         }
         return  existingStudent;
     }
