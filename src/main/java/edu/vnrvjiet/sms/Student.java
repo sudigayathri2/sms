@@ -11,7 +11,7 @@ public class Student {
     private String name;
     private Integer totalmarks;
 
-    // Full constructor
+    // Full constructo
     public Student(Integer id, String name, Integer totalmarks) {
         this.id = id;
         this.name = name;
